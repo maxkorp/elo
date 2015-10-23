@@ -1,0 +1,31 @@
+{
+  "name": "elo",
+  "version": "0.0.1",
+  "description": "ELO calculator for smash games",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxkorp/elo.git"
+  },
+  "keywords": [
+    "elo",
+    "ranking",
+    "smash"
+  ],
+  "author": "Maximiliano Korp <maxkorp@8bytealchemy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxkorp/elo/issues"
+  },
+  "homepage": "https://github.com/maxkorp/elo#readme",
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "dependencies": {
+    "alasql": "^0.2.1"
+  },
+  "scripts": {
+    "compile": "babel --stage 1 -d lib/ src/",
+    "prepublish": "npm run compile"
+  }
+}
