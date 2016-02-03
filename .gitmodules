@@ -1,0 +1,13 @@
+[submodule "nodegit"]
+	path = nodegit
+	update = rebase
+[submodule "nodegit"]
+	url = git@github.com:nodegit/nodegit
+[submodule "fishes"]
+	path = fishes
+[submodule "fishes"]
+	url = git@github.com:libgit2/libgit2
+[submodule "fishes2"]
+	path = fishes2
+[submodule "fishes2"]
+	url = git@github.com:libgit2/libgit2
